@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="red">#FD1C0D</color>
+	<color name="yellow">#EEFD00</color>
+	<color name="green">#04D000</color>
+	<color name="blue">#34568B</color>
+	<color name="h_c2">#FF9900</color>
+    <color name="h_c">#FF9900</color>
+	
+	<color name="rippelColor">#455a64</color>
+	<color name="rippelColor1">#455a64</color>
+	
+	<color name="udp1">#6a00ff</color>
+	<color name="udp2">#aa00ff</color>
+
+	<color name="globe_network">#ff011f62</color>
+	<color name="globe_network2">#ff32b7fc</color>
+	<color name="globe_tm_network">#ff011f62</color>
+	<color name="globe_tm_network2">#ffe54f3b</color>
+	<color name="smart_network">#ff4baa4b</color>
+	<color name="smart_network2">#ff33a6e4</color>
+	<color name="smart_tnt_network">#ff4baa4b</color>
+	<color name="smart_tnt_network2">#fff48222</color>
+	<color name="success">#34568B</color>
+	<color name="sun_network">#fffeda09</color>
+	<color name="sun_network2">#ffe97a48</color>
+	<color name="tm_network">#ffe54f3b</color>
+	<color name="tm_network2">#ff7939ec</color>
+	<color name="tnt_network">#fff48222</color>
+	<color name="tnt_network2">#fffa2167</color>
+	
+</resources>

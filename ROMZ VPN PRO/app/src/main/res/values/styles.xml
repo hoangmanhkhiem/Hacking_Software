@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	
+	
+	<!-- Style geral do app -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+		<item name="android:fontFamily">@drawable/googlesans</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorSecondary</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="preferenceTheme">@style/AppPreference</item>
+		<item name="alertDialogTheme">@style/AppAlertDialog</item>
+		<item name="android:textSize">15sp</item>
+		<!--<item name="android:textColorPrimary">@color/textColorPrimary</item>
+		<item name="android:textColorSecondary">@color/textColorSecondary</item>-->
+		<item name="android:textColor">@color/colorText</item>
+		<item name="android:textColorHint">@color/colorText</item>
+		<item name="android:navigationBarColor" tools:targetApi="21">@color/colorSecondary</item>
+		
+		<item name="buttonTint">@color/colorText</item>
+	</style>
+	
+	<!-- Alert Dialog -->
+	<style name="AppAlertDialog"
+        parent="Theme.AppCompat.Light.Dialog.Alert">
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="android:textColor">@color/colorText</item>
+		<item name="android:textColorHint">@color/colorText</item>
+		<item name="buttonTint">@color/colorText</item>
+	</style>
+	
+	
+	<!-- Preference Theme -->
+	<style name="AppPreference"
+        parent="PreferenceThemeOverlay">
+		<item name="android:textSize">12sp</item>
+	</style>
+	
+	
+	<!-- Toolbar theme -->
+	<style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+		<item name="android:textColorPrimary">@color/blue</item>
+		<item name="actionMenuTextColor">@android:color/holo_green_light</item>
+		<item name="colorAccent">@color/gray</item>
+		<item name="colorControlNormal">@color/white</item>
+		<item name="colorControlActivated">@color/blue</item>
+		<item name="colorControlHighlight">@color/gray_light</item>
+			
+		</style>
+	
+	<!-- Necessario para o modo noturno-->
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+	
+	<style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+		<item name="android:fontFamily">@drawable/googlesans</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">21sp</item>
+	</style>
+	
+	<style name="Toolbar.SubTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+		<item name="android:fontFamily">@drawable/googlesans</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+	
+	<!-- Style for Splash Screen -->
+	<style name="SplashScreenTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorSecondary</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+		
+	<style name="alert_dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+		<item name="android:backgroundDimEnabled">true</item>
+		<item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="@android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+	
+</resources>

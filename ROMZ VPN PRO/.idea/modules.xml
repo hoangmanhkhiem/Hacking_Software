@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ROMZ_VPN_PRO.iml" filepath="$PROJECT_DIR$/.idea/modules/ROMZ_VPN_PRO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ROMZ_VPN_PRO.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ROMZ_VPN_PRO.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/ROMZ_VPN_PRO.service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/ROMZ_VPN_PRO.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/style/ROMZ_VPN_PRO.style.iml" filepath="$PROJECT_DIR$/.idea/modules/style/ROMZ_VPN_PRO.style.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="15dp">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="?colorAccent"
+					android:text="URL/Host"/>
+
+				<EditText
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:ems="10"
+					android:inputType="textUri"
+					android:hint="www.google.com"
+					android:layout_marginBottom="10dp"
+					android:id="@+id/url_host"/>
+
+				<RadioGroup
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:id="@+id/split_group"
+					android:layout_marginBottom="10dp"
+					android:weightSum="3">
+
+					<RadioButton
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="Normal"
+						android:id="@+id/split_normal"
+						android:layout_weight="1.0"/>
+
+					<RadioButton
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="Delay Split"
+						android:id="@+id/split_delay"
+						android:layout_weight="1.0"/>
+
+					<RadioButton
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="None"
+						android:id="@+id/split_none"
+						android:layout_weight="1.0"/>
+
+				</RadioGroup>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:weightSum="2"
+					android:layout_marginBottom="10dp">
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:orientation="vertical"
+						android:layout_weight="1.0">
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:textColor="?colorAccent"
+							android:text="Request Method"/>
+
+						<Spinner
+							android:layout_height="40dp"
+							android:layout_width="match_parent"
+							android:id="@+id/request_method"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:orientation="vertical"
+						android:layout_alignParentRight="true"
+						android:layout_weight="1.0">
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:textColor="?colorAccent"
+							android:text="Injection Method"/>
+
+						<Spinner
+							android:layout_height="40dp"
+							android:layout_width="match_parent"
+							android:id="@+id/inject_method"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:textColor="?colorAccent"
+					android:text="Query Mode"/>
+
+				<RadioGroup
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:layout_marginBottom="10dp"
+					android:id="@+id/query_mode">
+
+					<RadioButton
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="Normal"
+						android:layout_weight="1.0"/>
+
+					<RadioButton
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="Front"
+						android:layout_weight="1.0"/>
+
+					<RadioButton
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="Back"
+						android:layout_weight="1.0"/>
+
+				</RadioGroup>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:textColor="?colorAccent"
+					android:text="Extra Headers"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:weightSum="2"
+					android:layout_marginBottom="10dp">
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.0">
+
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Online-Host"
+							android:id="@+id/online_host"/>
+
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Reverse-Proxy"
+							android:id="@+id/reverse_proxy"/>
+
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Dual-Connect"
+							android:id="@+id/dual_connect"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_weight="1.0">
+
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:id="@+id/forward_host"
+							android:text="Forward-Host"/>
+
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Keep-Alive"
+							android:id="@+id/keep_alive"/>
+
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Full-Host"
+							android:id="@+id/full_host"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<Button
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="GENERATE"
+					android:id="@+id/generate_payload"
+					android:background="?colorPrimary"
+					android:textColor="#FFFFFF"/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+</RelativeLayout>
+

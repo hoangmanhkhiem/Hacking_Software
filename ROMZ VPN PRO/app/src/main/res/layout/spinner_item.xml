@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical"
+	android:padding="10dp">
+
+	<ImageView
+		android:layout_width="35dp"
+		android:layout_height="35dp"
+		android:id="@+id/itemImage"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:id="@+id/itemName"
+			android:textStyle="bold"
+			android:textSize="13sp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textSize="10sp"
+			android:gravity="center"
+			android:id="@+id/info"
+			android:textColor="#FF058FFF"
+			android:textStyle="bold"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="60dp"
+			android:layout_height="25dp"
+			android:gravity="center"
+			android:id="@+id/ok12"
+			android:background="@drawable/stroke">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Text"
+				android:textSize="11sp"
+				android:id="@+id/textExtra"
+				android:textColor="@color/romz_color"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

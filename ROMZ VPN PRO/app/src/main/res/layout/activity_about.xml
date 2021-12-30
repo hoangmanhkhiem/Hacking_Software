@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<include
+		layout="@layout/toolbar_main"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:padding="10.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+
+				<TextView
+					android:textSize="12.0sp"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="How to connect?"/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="1. Select your desired server"/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15.0dip"
+					android:text="2. Select your desired payload"/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15.0dip"
+					android:layout_marginBottom="3.0dip"
+					android:text="3. Tap CONNECT button"/>
+
+				<TextView
+					android:textSize="10.0sp"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="7.0dip"
+					android:layout_marginBottom="5.0dip"
+					android:text="Note: Make sure your app is up-to-date"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5.0dip">
+
+				<TextView
+					android:textSize="12.0sp"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="Facebook Page"/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:autoLink="web"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="https://www.facebook.com/romzkieph"
+					android:layout_marginBottom="5dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5.0dip">
+
+				<TextView
+					android:textSize="12.0sp"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="Contact us at..."/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:autoLink="web"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15.0dip"
+					android:layout_marginTop="5.0dip"
+					android:layout_marginBottom="5.0dip"
+					android:text="https://m.me/romel.brosas0125/"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5.0dip">
+
+				<TextView
+					android:textSize="12.0sp"
+					android:textStyle="bold"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="Donate"/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="Support the developer by donating any amount to our GCASH, your donation will served as a fund for maintaining our servers."
+					android:layout_marginBottom="5dp"/>
+
+				<TextView
+					android:textSize="12.0sp"
+					android:autoLink="web"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15.0dip"
+					android:layout_marginTop="5.0dip"
+					android:text="GCASH: 09533753426"
+					android:layout_marginBottom="5dp"/>
+
+			</LinearLayout>
+
+			<com.google.android.gms.ads.AdView
+				xmlns:ads="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/adBannerSecondView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				ads:adSize="BANNER"
+				ads:adUnitId="ca-app-pub-7598967394813618/4550626432"
+				android:layout_gravity="center"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="5dp">
+
+			</com.google.android.gms.ads.AdView>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

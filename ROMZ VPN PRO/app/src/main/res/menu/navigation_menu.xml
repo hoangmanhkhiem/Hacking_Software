@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:id="@+id/grupo0">
+		
+		<item
+       		android:id="@+id/paygen"
+			android:icon="@drawable/ic_code"
+        	android:title="Payload Generator"/>
+		
+		<item
+       		android:id="@+id/update"
+			android:icon="@drawable/ic_cloud_download"
+        	android:title="Update Resources"/>
+		
+	</group>
+	
+	<group android:id="@+id/grupo1">
+		
+    	<item
+       		android:id="@+id/miPhoneConfg"
+			android:icon="@drawable/ic_wifi_tethering_black_24dp"
+        	android:title="@string/network_mobile"/>
+	
+    	<item android:id="@+id/miSettings"
+        	android:icon="@drawable/ic_settings"
+        	android:title="@string/settings"/>
+	
+	</group>
+	
+	<group android:id="@+id/grupo2">
+		
+		<item android:id="@+id/fb"
+			android:icon="@drawable/ic_fb"
+			android:title="Facebook Page"/>
+        
+        <item android:id="@+id/fb_group"
+            android:icon="@drawable/ic_group"
+            android:title="Community"/>
+      
+    </group>
+        
+        <group android:id="@+id/grupo3">
+      
+		<item android:id="@+id/miSendFeedback"
+			android:icon="@drawable/ic_bug_report_black_24dp"
+			android:title="Report Bug"/>
+		
+		<item android:id="@+id/miAbout"
+			android:icon="@drawable/ic_event_note_black_24dp"
+			android:title="About Us"/>
+		
+	</group>
+	
+	
+</menu>

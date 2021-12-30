@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="MissingTranslation">
+	
+    <string name="app_name">ROMZ VPN PRO</string>
+	
+	<string name="about">On</string>
+	<string name="config">Configuration</string>
+	<string name="settings">Settings</string>
+	<string name="settings_ssh">SSH Settings</string>
+	<string name="network_mobile">Mobile Network</string>
+	<string name="method_connection">Connection method</string>
+	<string name="rate_app">Qualify</string>
+	<string name="feedback">Feedback</string>
+	<string name="first_start_msg">This application was developed for advanced users, please keep this in mind when using it.</string>
+	<string name="title_login_main">Login Details</string>
+	
+	<!-- Preference -->
+	<string name="category_forward_udp">Udp Redirect</string>
+	<string name="title_forward_udp">Redirect UDP</string>
+	<string name="summary_forward_udp">Redirection was activated for the remote server. If not, UDP wont work.</string>
+	<string name="title_resolver_udp">UDP Gateway (remote)</string>
+	<string name="summary_resolver_udp">Default (7300)</string>
+	<string name="category_forward_dns">DNS Forwarding</string>
+	<string name="title_forward_dns">Forward DNS</string>
+	<string name="summary_forward_dns">If active, redirect requests to the remote server. If not, DNS will be used by the local system.</string>
+	<string name="title_dns_primary">Primary DNS</string>
+	<string name="summary_dns_primary">Default (1.1.1.1)</string>
+	<string name="dialog_message_dns_primary">Enter DNS IP</string>
+	<string name="category_advanced_settings">Advanced Settings</string>
+	<string name="title_hide_log">Hide Log on Start</string>
+	<string name="summary_hide_log">If I activate the log it will not be shown automatically.</string>
+	<string name="title_auto_clear_log">Automatically Clear Logs</string>
+	<string name="summary_auto_clear_log">If I activate the Records they will be deleted automatically.</string>
+	<string name="category_forward_port">Port Forwarding</string>
+	<string name="title_mode_debug">Debugging Mode</string>
+	<string name="summary_mode_debug">Allows you to see more advanced information in the logs.</string>
+	<string name="title_number_max_threads">Maximum number of Threads</string>
+	<string name="summary_number_max_threads">The higher the number of Threads, the higher the power consumption and the connection speed on your device.</string>
+	<string name="category_filter_apps">App Filter</string>
+	<string name="title_filter_apps">Filter Apps</string>
+	<string name="title_bypass_mode">Bypass Mode</string>
+	<string name="summary_bypass_modo">If active, or traffic from the selected applications will be sent directly.</string>
+	<string name="title_apps_list">List of Apps</string>
+	<string name="summary_apps_list">Enter one package name per line. Look in Settings -> Apps for the app package name.</string>
+	<string name="category_settings_adicionais">Additional Settings</string>
+	<string name="title_mode_night">Night Mode (beta)</string>
+	<string name="title_ping_time">Ping (seconds)</string>
+	<string name="category_user_interface">User Interface</string>
+	<string name="title_language">Language</string>
+	<string name="category_tunnel">Tunnel</string>
+	
+	<string name="ssh_server">Server</string>
+	<string name="ssh_port">Port</string>
+	<string name="ssh_porta_local">Local Port (Socks5)</string>
+	<string name="payload">Connection Text</string>
+	<string name="proxy_remote">Proxy Remote</string>
+	<string name="proxy_ip">Proxy IP/Host</string>
+	<string name="proxy_port">Port</string>
+	<string name="proxy_auth">Proxy Authentication</string>
+	<string name="proxy_user">User</string>
+	<string name="proxy_pass">Password</string>
+	<string name="dir_name">Pasta</string>
+	
+	<string name ="alert_exit">Are you sure you want to exit?</string>
+	<string name="alert_clear_settings">Are you sure you want to Custom Setup?</string>
+	<string name="no_value">Empty</string>
+	<string name="blocked">Locked</string>
+	<string name="expired">Expired</string>
+	<string name="title_delete_file">Exclude File</string>
+	<string name="alert_delete_file">Do you want to include this file?</string>
+	<string name="dir_home_name">Internal Memory</string>
+	<string name="select_file_setting">Select File</string>
+	<string name="title_permission_request">Grant Permissions</string>
+	<string name="message_permission_request">Please, it is necessary to grant necessary permissions for the application to work properly.</string>
+	<string name="show_license">See Licenses</string>
+	
+	<!--- export settings -->
+	<string name="name_file">File Name</string>
+	<string name="export_button">Export</string>
+	<string name="title_security">Security / Lock</string>
+	<string name="check_protect">Lock configuration and prevent editing</string>
+	<string name="title_extra">Extra</string>
+	<string name="check_block_root">Block Root</string>
+	<string name="check_show_login_start">Show Login to Start</string>
+	<string name="check_date_valid">Set Expiration Date</string>
+	<string name="input_note_msg">Message / Note for users (optional)</string>
+	<string name="alert_block_settings">Configuration lock does not guarantee 100% security</string>
+	<string name="error_empty_name_file">File name must not be empty</string>
+	
+	<!--- action messages -->
+	<string name="minimize">Minimize</string>
+	<string name="exit">Exit</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="save">Save</string>
+	<string name="open">Open</string>
+	<string name="more">More</string>
+	<string name="cancel">Cancel</string>
+	<string name="wait">Wait</string>
+	<string name="attention">Attention</string>
+	<string name="ok">Ok</string>
+	<string name="close">Close</string>
+	<string name="open_with">Open With</string>
+	<string name="clear_settings">Restore</string>
+	<string name="clear_logs">Clear Records</string>
+	<string name="settings_ImportExport">Import/Export</string>
+	<string name="settings_import">Import Configuration</string>
+	<string name="settings_export">Export Configuration</string>
+	<string name="actived">Ativate</string>
+	<string name="disabled">Deactivate</string>
+	
+	<!--Welcome Wizard strings (DJH)-->
+	<string name="wizard_details">Some details of SocksHttp</string>
+	<string name="wizard_details_msg">SocksHttp is a VPN client that works through an SSH server. The application itself is useless without a configuration, so it is only for use by advanced users.</string>
+	<string name="payload_details">Keywords</string>
+	<string name="payload_details_msg">The following keywords are currently supported in the connection text: [method] [host_port] [ssh] [host] [port] [protocol] [crlf] [cr] [lf] [lfcr] [ua] [random=*;] [rotate=*;] [split] [delay_split]</string>
+	<string name="project_home">Developer Home:</string>
+	<string name="project_urls">http://t.me/SlipkProjects</string>
+	<string name="third_party_software">Third Party Software</string>
+	<string name="jsocks_version">JSocks v1.0.1: https://jsocks.sourceforge.net</string>
+	<string name="trileadssh2_version">Trilead SSH-2 Build 217: https://github.com/jenkinsci/trilead-ssh2</string>
+	
+	<!--- error messages -->
+	<string name="error_tunnel_service_execution">Running service, stop it first</string>
+	<string name="error_no_supported">Function not supported by your device</string>
+	<string name="error_invalid_settings">Invalid configuration</string>
+	<string name="error_settings_blocked">Configuration locked</string>
+	<string name="error_delete_file">Failed to delete file</string>
+	<string name="error_file_config_incompatible">Unsupported file</string>
+	<string name="error_file_not_found">File not Found</string>
+	<string name="error_permission_writer_required">Write permission is required</string>
+	<string name="error_date_selected_invalid">The selected day cannot be less than today</string>
+	<string name="error_export_settings">Could not export configuration</string>
+	<string name="success_clear_settings">Settings were restored</string>
+	<string name="success_import_settings">Imported file</string>
+	<string name="success_export_settings">Exported configuration</string>
+	
+	<!-- Ainda Falta Traduzir -->
+	<string name="title_agradecimento_especial">Special thanks to</string>
+	<string name="error_userpass_empty">Enter the username / password provided by the configuration creator</string>
+	<string name="title_disable_delay_ssh">Disable TCP Delay</string>
+	<string name="summary_disable_delay_ssh">If active there will be no delays between requests, which can improve ping or even the speed of the connection.</string>
+	<string name="title_tethering_subnet">Tethering Subnet (beta)</string>
+	<string name="summary_tethering_subnet">Enable it if youre having trouble sharing your devices internet.</string>
+	
+</resources>

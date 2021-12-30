@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<android.support.v7.widget.CardView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5.0dip"
+		android:layout_marginTop="10.0dip"
+		android:layout_marginRight="5.0dip"
+		android:layout_marginBottom="5.0dip"
+		ads:cardElevation="5.0dip">
+
+	  <ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="80dp">
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="200dp"
+						android:layout_height="match_parent"
+						android:padding="5dp">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="SELECT SERVER"
+							android:textAppearance="?android:attr/textAppearanceSmall"
+							android:textSize="13sp"/>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="match_parent"
+							android:id="@+id/serverSpinner"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:padding="5dp">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="SELECT PORT"
+							android:textAppearance="?android:attr/textAppearanceSmall"
+							android:textSize="13sp"/>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="50dp"
+							android:id="@+id/portAuto"/>
+
+						<Spinner
+							android:layout_width="match_parent"
+							android:layout_height="50dp"
+							android:id="@+id/portSpinner"
+							android:visibility="gone"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<android.support.v7.widget.CardView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="0.0dip"
+					android:layout_marginTop="20.0dip"
+					android:layout_marginBottom="10.0dip"
+					android:layout_marginRight="0.0dip"
+					ads:cardBackgroundColor="?android:windowBackground"
+					ads:cardCornerRadius="10.0dip"
+					ads:cardElevation="2.0dip">
+
+					<LinearLayout
+						android:gravity="center"
+						android:orientation="horizontal"
+						android:padding="1.0dip"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content">
+
+						<ImageView
+							android:layout_width="15.0dip"
+							android:layout_height="15.0dip"
+							android:layout_marginLeft="5.0dip"
+							android:src="@drawable/ic_up"/>
+
+						<TextView
+							android:textAppearance="?android:textAppearanceSmall"
+							android:id="@+id/bytes_out"
+							android:textSize="12.0sp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="0B"
+							android:layout_marginRight="5dp"/>
+
+						<ImageView
+							android:layout_width="15.0dip"
+							android:layout_height="15.0dip"
+							android:layout_marginLeft="5.0dip"
+							android:src="@drawable/ic_down"
+							android:adjustViewBounds="true"/>
+
+						<TextView
+							android:textAppearance="?android:textAppearanceSmall"
+							android:id="@+id/bytes_in"
+							android:textSize="12.0sp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="0B"/>
+
+					</LinearLayout>
+
+				</android.support.v7.widget.CardView>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingLeft="5dp"
+					android:paddingRight="5dp"
+					android:layout_marginBottom="10dp"
+					android:gravity="center">
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="CONNECTION MODE"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:textSize="13sp"/>
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:gravity="right">
+
+						<Switch
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="CUSTOM SETUP"
+							android:textSize="13sp"
+							android:id="@+id/customSetup"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<Spinner
+					android:layout_width="match_parent"
+					android:layout_height="60dp"
+					android:id="@+id/payloadSpinner"/>
+				
+				<Spinner
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:id="@+id/methodSpinner"
+					android:visibility="gone"/>
+				
+				<android.support.v7.widget.CardView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10.0dip"
+					android:layout_marginLeft="5.0dip"
+					android:layout_marginRight="5.0dip"
+					ads:cardElevation="5.0dip">
+				
+					<LinearLayout
+						android:id="@+id/activity_mainInputPayloadLinearLayout"
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:orientation="vertical"
+						android:background="@drawable/box_gradient"
+						android:padding="10dp"
+						android:visibility="gone">
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<android.support.design.widget.TextInputEditText
+								android:id="@+id/activity_mainInputPayloadEditText"
+								android:inputType="textMultiLine|textLongMessage"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:ems="20"
+								android:maxHeight="100dp"
+								android:hint="@string/payload"
+								android:textColor="@color/colorText"/>
+
+						</android.support.design.widget.TextInputLayout>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/activity_ssl_layout"
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:orientation="vertical"
+						android:background="@drawable/box_gradient"
+						android:padding="10dp"
+						android:visibility="gone">
+
+						<android.support.design.widget.TextInputLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content">
+
+							<android.support.design.widget.TextInputEditText
+								android:id="@+id/activity_sni_edit"
+								android:inputType="textMultiLine|textLongMessage"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:ems="20"
+								android:maxHeight="100dp"
+								android:hint="@string/sni"
+								android:textColor="@color/colorText"/>
+
+						</android.support.design.widget.TextInputLayout>
+
+					</LinearLayout>
+
+				</android.support.v7.widget.CardView>
+
+				<LinearLayout
+					android:gravity="center|top"
+					android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="35dp"
+					android:layout_marginTop="10.0dip">
+
+					<Button
+						android:foreground="?android:attr/selectableItemBackground"
+						android:clickable="true"
+						android:textStyle="bold"
+						android:textColor="#ffffffff"
+						android:id="@+id/activity_starterButtonMain"
+						android:background="?colorPrimary"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="START"
+						style="?android:attr/buttonStyleSmall"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:visibility="gone"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:layout_marginTop="7dp"
+					android:id="@+id/timerLayout">
+
+					<ImageView
+						android:src="@drawable/ic_timer"
+						android:layout_width="30dp"
+						android:layout_height="30dp"
+						android:layout_marginLeft="3dp"/>
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_margin="5dp"
+						android:layout_weight="1.0">
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Time Left:"
+							android:textAppearance="?android:attr/textAppearanceSmall"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="0d:0h:0m:0s"
+							android:textSize="13.0sp"
+							android:textStyle="bold"
+							android:textAppearance="?android:attr/textAppearanceMedium"
+							android:id="@+id/tvTimeRemaining"/>
+
+					</LinearLayout>
+
+					<Button
+						android:foreground="?android:attr/selectableItemBackground"
+						android:clickable="true"
+						android:layout_width="150dp"
+						android:layout_height="35dp"
+						android:text="ADD + TIME"
+						android:id="@+id/btnAddTime"
+						android:textColor="#FFFFFFFF"
+						android:background="?colorPrimary"
+						style="?android:attr/buttonStyleSmall"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+    	</ScrollView>
+	
+	</android.support.v7.widget.CardView>
+
+	<com.google.android.gms.ads.AdView
+		xmlns:ads="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/adBannerMainView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginTop="3dp"
+		android:visibility="gone"
+		ads:adSize="BANNER"
+		ads:adUnitId="ca-app-pub-7598967394813618/4550626432"
+		android:layout_gravity="center">
+
+	</com.google.android.gms.ads.AdView>
+
+</LinearLayout>
+

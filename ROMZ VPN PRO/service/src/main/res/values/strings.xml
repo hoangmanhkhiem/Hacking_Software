@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">ROMZ VPN PRO</string>
+  
+	<string name="attention">Attention</string>
+    <string name="cancel">Cancel</string>
+	<string name="ok">Ok</string>
+	<string name="exit">Exit</string>
+	<string name="error_request_permission">You need access to External Storage</string>
+	
+	<string name="importing_settings">Importing Configuration</string>
+	<string name="log_settings_valid">File valid until: %1$s</string>
+	<string name="log_server_banner">Server Message:</string>
+	<string name="log_conection_lost">Connection Lost</string>
+	
+	
+	<string name="start">Connect</string>
+	<string name="stop">Disconnect</string>
+	<string name="reconnect">Reconnect</string>
+	
+	<string name="stopping_service_ssh">ROMZ VPN Stopped</string>
+	<string name="starting_service_ssh">ROMZ VPN Started</string>
+	
+	<string name="title_auth">Authentication</string>
+	<string name="auth_message">Complete with SSH account details</string>
+	<string name="auth_username">Username</string>
+	<string name="password">Password</string>
+	<string name="show_password">Show Password</string>
+	<string name="save_password">Save Password</string>
+	
+	
+	<string name="channel_name_background">Connection statistics</string>
+    <string name="channel_description_background">Ongoing statistics of the established VPN connection</string>
+    <string name="channel_name_status">Connection status change</string>
+    <string name="channel_description_status">Status changes of the SocksHttp connection (Connecting, authenticating,…)</string>
+	<string name="channel_name_userreq">User interaction required</string>
+    <string name="channel_description_userreq">ROMZ VPN PRO connection requires a user input, e.g. two factor authentification</string>
+	
+	<string name="state_starting">Getting Started</string>
+	<string name="state_connecting">Connecting</string>
+    <string name="state_wait">Waiting for server response</string>
+    <string name="state_auth">Authenticating</string>
+	<string name="state_auth_success">Authenticated</string>
+    <string name="state_get_config">Getting client configuration</string>
+    <string name="state_assign_ip">Assigning IP addresses</string>
+    <string name="state_add_routes">Adding routes</string>
+    <string name="state_connected">VPN service running</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_stopping">Stopping</string>
+    <string name="state_noprocess">Not running</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_tcp_connect">Conectando (TCP)</string>
+    <string name="state_auth_failed">Authentication failed</string>
+    <string name="state_nonetwork">Waiting for network</string>
+    <string name="state_waitconnectretry">Waiting %ss seconds between connection attempt</string>
+    <string name="state_auth_pending">Waiting for Autentication</string>
+    <string name="state_user_vpn_password" translatable="false">Waiting for user VPN password</string>
+	<string name="state_user_vpn_permission" translatable="false">Waiting for user permission to use VPN API</string>
+	<string name="state_user_vpn_password_cancelled" translatable="false">VPN password input dialog cancelled</string>
+    <string name="state_user_vpn_permission_cancelled" translatable="false">VPN API permission dialog cancelled</string>
+    <string name="unknown_state">Unknown Status</string>
+	<string name="nought_alwayson_warning"><![CDATA[If you did not get a VPN confirmation dialog, you have \"Always on VPN\" enabled for another app. In that case only that app is allowed to connect to a VPN. Check under Settings-> Networks more .. -> VPNS]]></string>
+	<string name="no_vpn_support_image">Your image does not support the VPNService API, sorry :(</string>
+    <string name="state_proxy_running">Running proxy</string>
+	<string name="state_proxy_inject">Injecting</string>
+	
+	<string name="mobile_info">Running on %3$s %1$s (%2$s), Android %5$s API %4$d</string>
+	<string name="app_mobile_info">Application Version: %1$s %2$s</string>
+	
+	<string name="alert_update_app">Install the latest version</string>
+	<string name="error_settings_expired">Expired File</string>
+	<string name="error_file_settings_invalid">Invalid Configuration</string>
+	<string name="error_file_invalid">Invalid File</string>
+	<string name="error_internet_off">Please connect to the internet</string>
+	<string name="error_empty_payload">The payload cannot be empty</string>
+	<string name="error_empty_settings">Configure correctly to start</string>
+	<string name="error_proxy_invalid">Invalid Proxy</string>
+	<string name="error_server_ip_invalid">Invalid Server / IP</string>
+	<string name="error_root_detected">Locked configuration for devices with root access</string>
+	<string name="error_vpn_sniffer_detected">Another running VPN application has been detected, stop it before</string>
+	<string name="error_save_settings">Couldnt Save Configuration</string>
+	
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<color name="gray_light">#DEDEDE</color>
+	<color name="blue">#34568B</color>
+	<color name="blue_light">#FF058FFF</color>
+	<color name="gray">#808080</color>
+	<color name="black_light">#333333</color>
+	<color name="white">#ffffff</color>
+	<color name="red">#FD1C0D</color>
+	<color name="yellow">#EEFD00</color>
+	<color name="green">#04D000</color>
+	<color name="romz_color">#FFFFFF</color>
+	<color name="tab_bg">#333333</color>
+	<color name="tab_text">#FFFFFF</color>
+	<color name="toolbar_bg">#333333</color>
+	
+	<color name="colorPrimary">@color/blue</color>
+	<color name="colorPrimaryDark">@color/blue</color>
+	<color name="colorSecondary">@color/blue</color>
+	<color name="colorAccent">@color/blue_light</color>
+	
+	<color name="textColorPrimary">#B6A7A6</color>
+	<color name="textColorSecondary">#BFBCBB</color>
+	<color name="colorTextEnabled">#ffffff</color>
+	<color name="colorTextDisabled">#5B5B5B</color>
+	
+	<color name="colorText">@color/text_color</color>
+	<color name="colorPrimaryBackground">#000000</color>
+	<color name="colorSecondaryBackground">#333333</color>
+	
+</resources>

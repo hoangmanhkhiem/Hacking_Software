@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kimchangyoun:rootbeerFresh:0.0.10@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8f104a90db576f2244f29a27caa370a/rootbeerFresh-0.0.10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8f104a90db576f2244f29a27caa370a/rootbeerFresh-0.0.10/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d8f104a90db576f2244f29a27caa370a/rootbeerFresh-0.0.10/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kimchangyoun/rootbeerFresh/0.0.10/c6ed9007d7080a47abdf73f55367b5c4b3c4fc38/rootbeerFresh-0.0.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kimchangyoun/rootbeerFresh/0.0.10/99aaa10e74133230b2b388260fda5219e4cbcc7e/rootbeerFresh-0.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

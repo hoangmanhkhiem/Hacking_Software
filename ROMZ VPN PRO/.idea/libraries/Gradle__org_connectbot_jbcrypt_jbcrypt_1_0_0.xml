@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.connectbot.jbcrypt:jbcrypt:1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.connectbot.jbcrypt/jbcrypt/1.0.0/f37bba2b8b78fcc8111bb932318b621dcc6c5194/jbcrypt-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.connectbot.jbcrypt/jbcrypt/1.0.0/207b3425ea8c679931f8212b013b49e8c42f43c0/jbcrypt-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.connectbot.jbcrypt/jbcrypt/1.0.0/f405268fbea67b4112eed50086f4e9b6c552d878/jbcrypt-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
